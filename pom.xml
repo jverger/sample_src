@@ -33,7 +33,7 @@
     </snapshotRepository>
   </distributionManagement>
   <build>
-    <finalName>sample</finalName>
+    <finalName>${project.artifactId}-${project.version}</finalName>
     <pluginManagement>
       <plugins>
         <plugin>
