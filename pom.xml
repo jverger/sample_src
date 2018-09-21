@@ -24,12 +24,12 @@
     <repository>
       <id>deployment</id>
       <name>Internal Releases</name>
-      <url>http://57.200.1.171:9090/nexus/content/repositories/cia-release/</url>
+      <url>http://nexus.accor.net:9090/nexus/content/repositories/cia-release/</url>
     </repository>
     <snapshotRepository>
       <id>deployment</id>
       <name>Internal Snapshot Releases</name>
-      <url>http://57.200.1.171:9090/nexus/content/repositories/cia-snapshot/</url>
+      <url>http://nexus.accor.net:9090/nexus/content/repositories/cia-snapshot/</url>
     </snapshotRepository>
   </distributionManagement>
   <build>
