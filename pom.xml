@@ -3,7 +3,7 @@
   <groupId>com.sample.projects</groupId>
   <artifactId>sample</artifactId>
   <packaging>war</packaging>
-  <version>jverger</version>
+  <version>6.2-SNAPSHOT</version>
   <name>Sample Project</name>
   <url>https://tomcat.apache.org/tomcat-6.0-doc/appdev/sample/sample.war</url>
   <dependencies>
@@ -18,7 +18,7 @@
     <connection>scm:git:https://github.com/jverger/sample_src.git</connection>
     <url>https://github.com/jverger/sample_src.git</url>
     <developerConnection>scm:git:https://github.com/jverger/sample_src.git</developerConnection>
-    <tag>96582f3a3f345eab0bd15ddb43493b893405228a</tag>
+    <tag>6.2</tag>
   </scm>
   <distributionManagement>
     <repository>
