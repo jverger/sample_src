@@ -172,7 +172,8 @@ public final class Hello extends HttpServlet {
 			writer.println("<h3>Container Tomcat Version</h3>");
 		writer.println("</td>");
 		writer.println("<td>");	
-			pb = new ProcessBuilder("tomcat8", "version");
+			//pb = new ProcessBuilder("tomcat8", "version");
+			pb = new ProcessBuilder("java", "-classpath", "/usr/share/java/tomcat/catalina.jar:/usr/share/java/tomcat6/catalina.jar", "org.apache.catalina.util.ServerInfo");
 			pb.redirectErrorStream(true);
 			process = pb.start();
 			//errCode = waitFor();

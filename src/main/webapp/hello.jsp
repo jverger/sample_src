@@ -96,7 +96,7 @@
 	</td>
 	<td>
 		<%
-			pb = new ProcessBuilder("tomcat8", "version");
+			pb = new ProcessBuilder("java", "-classpath", "/usr/share/java/tomcat/catalina.jar:/usr/share/java/tomcat6/catalina.jar", "org.apache.catalina.util.ServerInfo");
 			pb.redirectErrorStream(true);
 			process = pb.start();
 		%>
