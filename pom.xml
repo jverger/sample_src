@@ -3,7 +3,7 @@
   <groupId>com.sample.projects</groupId>
   <artifactId>sample</artifactId>
   <packaging>war</packaging>
-  <version>6.3-SNAPSHOT</version>
+  <version>6.3</version>
   <name>Sample Project</name>
   <url>https://tomcat.apache.org/tomcat-6.0-doc/appdev/sample/sample.war</url>
   <dependencies>
